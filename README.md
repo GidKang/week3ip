@@ -3,7 +3,7 @@ Repository for the 3rd week independent project.
 Gideon Andrew Mkangaa
 # DELANI STUDIO
 ## Description
-This is a landing page for Delani studio that will allow you to see what they are, what they do and how you can get in contact with them. 
+This is a landing page for Delani studio that will allow you to see what they are, what they do, and how you can get in contact with them. 
 ## Setup/Installation Requirements
 Open Terminal {Ctrl+Alt+T}
 
