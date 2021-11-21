@@ -1,19 +1,19 @@
 $(".click1").click(function () {
-    $(".hide1").slideToggle(1000);
-    $(".show1").slideToggle(1200);
+    $(".hide1").slideToggle(500);
+    $(".show1").slideToggle(500);
 });
   $(".click2").click(function () {
-    $(".hide2").slideToggle(1000);
-    $(".show2").slideToggle(1200);
+    $(".hide2").slideToggle(500);
+    $(".show2").slideToggle(500);
 });
   $(".click3").click(function () {
-    $(".hide3").slideToggle(1000);
-    $(".show3").slideToggle(1200);
+    $(".hide3").slideToggle(500);
+    $(".show3").slideToggle(500);
 });
 
   // porrtfolio text overlay images
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay").show();
     }).mouseout(function(){
@@ -54,5 +54,23 @@ $(".click1").click(function () {
     }).mouseout(function(){
       $("#overlay8").hide();
     });
-  });
+});
 
+//form input validation
+
+$(document).ready(function(){
+    $("form#formValidity").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#MERGE1").val();
+      var email = $("input#MERGE0").val();
+      var message = $("textarea#comment").val();
+      if (name && email){
+        alert (name + ", We have received your message. Thank you for reaching out to us.");
+    }
+      else {
+        alert("Please enter your name and email correctly.");
+    }
+      
+    });
+  
+});
