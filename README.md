@@ -12,6 +12,8 @@ git clone https://github.com/GidKang/week3ip.git
 cd Delani-Studio
 
 code . or atom . depending on the text editor of your choise.
+## Live Link
+https://gidkang.github.io/week3ip/
 ## Known Bugs
 None.
 ## Technologies Used
